@@ -1,0 +1,19 @@
+{
+    "name": "affinity4/request-handler-middleware",
+    "description": "PSR-15 Request Handler Middleware for Affinity4/Dispatcher",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@luke-watts.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Affinity4\\Middleware\\RequestHandler\\": "src/"
+        }
+    },
+    "require": {
+        "nyholm/psr7": "^1.1"
+    }
+}

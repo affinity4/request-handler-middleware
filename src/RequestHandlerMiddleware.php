@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Affinity4\Middleware\RequestHandler;
 
-use Affinity4\MiddlewareStack\Contract\HttpFactoryMiddlewareInterface;
+use Affinity4\Dispatcher\Contract\HttpFactoryMiddlewareInterface;
 use Nyholm\Psr7\Factory\Psr17Factory;
 
 use Psr\Http\Message\ServerRequestInterface;
